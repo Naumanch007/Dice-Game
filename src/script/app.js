@@ -21,7 +21,8 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
     
     var selectorDice =document.querySelector('.dice');
     selectorDice.style.display='block';
-    selectorDice.src="dice-" +dice+ ".png";
+    selectorDice.src="./img/dice-" +dice+ ".png";
+
 
     if (dice!==1) {
         roundTotal+=dice;
